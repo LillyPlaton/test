@@ -3,6 +3,7 @@
 import java.util.Scanner;
 
 public class Main01 {
+  // comentariu//
 
   public static double discriminant(double a, double b, double c) {
     return b * b - 4 * a * c;
