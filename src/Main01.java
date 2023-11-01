@@ -12,9 +12,11 @@ public class Main01 {
   public static void solveAndPrintRoots(double a, double b, double c) {
     double d = discriminant(a, b, c);
     double x1 = (-b + Math.sqrt(d)) / (2 * a);
-    double x2 = (-b - Math.sqrt(d)) /(2 * a);
+    double x2 = (-b - Math.sqrt(d)) / (2 * a);
     System.out.println("x1 = " + x1 + ", x2 = " + x2);
+
     System.out.println("Чмсло из заданного массива");
+
   }
 
   public static void main(String[] args) {
